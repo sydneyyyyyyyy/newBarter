@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-export const url ='http://127.0.0.1:8000';
+export const url = 'http://alpha@azure.com';
 
 export const axiosSignin = async (formData) => await axios.post(`${url}/api/auth/login`, formData);
 export const axiosSignup = async (formData) => await axios.post(`${url}/api/auth/signup`, formData);
